@@ -1,9 +1,9 @@
 from pytube import YouTube
 
+# Write the links in the file links.txt (one link per line) and create DownloadedVideos folder
 inPath = 'YoutubeDownloader/links.txt'
 outPath = 'YoutubeDownloader/DownloadedVideos'
 
-# Links are written in the txt file (1 link per line)
 f = open(inPath,'r')
 links = f.readlines()
 
