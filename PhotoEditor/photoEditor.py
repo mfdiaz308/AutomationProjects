@@ -1,6 +1,7 @@
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
+# Create imgs (input) and editedImgs (output) folders
 path = './PhotoEditor/imgs'
 pathOut = './PhotoEditor/editedImgs'
 
