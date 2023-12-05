@@ -1,6 +1,7 @@
 import PyPDF2
 import os
 
+# Create Input and Output folders
 inPath = 'PdfMerger/Input'
 outPath = 'PdfMerger/Output'
 
